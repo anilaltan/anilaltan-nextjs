@@ -9,9 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.16.27",
+    "axios": "^0.27.2",
     "next": "12.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next-auth": "^4.8.0",
+    "plaiceholder": "^2.4.0",
+    "qs": "^6.11.0",
+    "rc-pagination": "^3.1.17",
+    "rc-select": "^14.1.9",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-query": "^3.39.1",
+    "sass": "^1.53.0"
   },
   "devDependencies": {
     "eslint": "8.18.0",

@@ -1,0 +1,49 @@
+@import "./variables.module.scss";
+
+.container{
+    max-width: $min-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    p{
+        font-family: $main-text-font;
+        a{
+            color: $second-color;
+            font-family: $main-text-font;
+            &:hover{
+                color: $hover-color;
+                text-decoration: underline;
+                font-family: $main-text-font;
+            }
+        }
+    }
+}
+
+.title{
+    font-family: $main-text-font;
+    font-size: 2rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 14rem;
+
+    button{
+        background: $second-color;
+        border-radius: 28px;
+        color: white;
+        font-family: $main-text-font;
+        text-decoration: none;
+        font-size: 1rem;
+        border: none;
+        padding: 10px 20px 10px 20px;
+        cursor: pointer;
+        &:hover{
+            background: $hover-color;
+            text-decoration: none;
+        }
+    }
+}
